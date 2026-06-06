@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar to keep layout premium and aligned with the game vibe */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebff;
+}
+::-webkit-scrollbar-thumb {
+  background: #cca350;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b38f36;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f1ebff;
+  color: #1c1924;
+  overflow-x: hidden;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Growee Store",
+  "description": "Growee Store - Feature-Rich Roblox Virtual Marketplace and SaaS Automation Platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
